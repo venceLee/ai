@@ -1,3 +1,0 @@
-pipe = pipeline("text-generation", model="TheBloke/dolphin-2.5-mixtral-8x7b-GPTQ")
-tokenizer = AutoTokenizer.from_pretrained("TheBloke/dolphin-2.5-mixtral-8x7b-GPTQ")
-model = AutoModelForCausalLM.from_pretrained("TheBloke/dolphin-2.5-mixtral-8x7b-GPTQ")
